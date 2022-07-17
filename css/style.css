@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Alatsi';
+    src: url('../fonts/Alatsi-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FredokaOne';
+    src: url('../fonts/FredokaOne-Regular.ttf') format('truetype');
+}
+body{
+    font-family: 'Alatsi';
+    background-color: #F3F3F3;
+}
+.navbar{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.navbar-brand.top img{
+    height: 30px;
+    position: absolute;
+    left: 45%;
+    top: 30px;
+}
+#welcome{
+   background-color: black;
+   color: #F3F3F3;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 40px;
+}
+.btn{
+    border-radius: 50px;
+    width: 150px;
+    font-weight: 500;
+    margin: 7px;
+}
+.btn.vp{
+    background-color: #3A4750;
+    color: #F3F3F3;
+}
+.btn.is{
+    background-color: #F3F3F3;
+    color: #303841;
+}
+#info-wc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-display: center;
+    text-align:center;
+    padding: 10px;
+}
+#presentation{
+    color: #303841;
+    background-image: url(../imgs/custom.png);
+    height: 640px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#empresas{
+    background-image: url(../imgs/empresas.png);
+    background-size:cover;
+    background-position: center;
+    height: 130px;
+}
+#presentation span{
+    font-size: 30px;
+}
+#products{
+    display: flex;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    color: #F3F3F3;
+    padding: 0 13%;
+}
+.prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.prod i{
+    font-size: 140px;
+    margin-bottom: 35px;
+}
+.prod span{
+    font-size: large;
+    text-align: center;
+}
+#final{
+    font-family: 'FredokaOne';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#final img{
+    margin: 70px 5%;
+}
+#final div{
+    margin: 30px;
+    width: 50%;
+    text-align: center;
+}
+.btn.ec{
+    background-color: #2185D5;
+    width: 170px;
+    font-size: 13px;
+    color: #F3F3F3;
+    font-family: 'Alatsi';
+    font-weight: 550;
+    margin-top: 15px;
+}
+.navbar-brand.foot img{
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A4750;
+    color: #F3F3F3;
+    padding: 30px;
+}
+#social{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.text{
+    text-align: center;
+    margin: 0 10%;
+    font-size: 17px;
+    font-weight: 300;
+}
+@media (max-width: 768px) {
+    #welcome{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    #presentation{
+        padding: 0 15%;
+        background-image: url(../imgs/768.png);
+        height: 450px;
+    }
+    #presentation span{
+        font-size: 20px;
+    }
+    #presentation h1{
+        font-size: 35px;
+    }
+    .prod{
+        width: 25%;
+    }
+    .prod i{
+        font-size: 100px;
+    }
+    .prod span{
+        font-size: medium;
+    }
+    #products{
+        padding: 0 10%;
+        justify-content: space-between;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .con{
+        font-size: larger;
+    }
+    #final img{
+        height: 200px;
+    }
+    #empresas{
+        height: 90px;
+    }
+}
+@media (max-width: 576px) {
+    #welcome{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    #presentation{
+        padding: 0 15%;
+        background-image: url(../imgs/768.png);
+        height: 450px;
+    }
+    #presentation span{
+        font-size: 20px;
+    }
+    #presentation h1{
+        font-size: 35px;
+    }
+    .prod{
+        width: 25%;
+    }
+    .prod i{
+        font-size: 100px;
+    }
+    .prod span{
+        font-size: medium;
+    }
+    #products{
+        padding: 0 10%;
+        justify-content: space-between;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .con{
+        font-size: larger;
+    }
+    #final img{
+        height: 200px;
+    }
+    #empresas{
+        height: 90px;
+    }
+}
