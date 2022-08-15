@@ -12,15 +12,15 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand top" href="#"><img src="imgs/logo.png" alt=""></a>
-        <a class="nav-link" href="#"><i class="fa-solid fa-user fa-xl"></i><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/signup"><i class="fa-solid fa-user fa-xl"></i><span class="sr-only">(current)</span></a>
       </nav>
 
       <div id="welcome">
         <div id="info-wc">
             <h1>TUS ARTISTAS FAVORITOS AL ALCANCE DE TUS OIDOS</h1><br>
             <div id="btn">
-                <a href="../Pagina cliente/index.html" class="btn vp">ver productos</a>
-                <a href="../Inicio Sesión VIKIA/index.html" class="btn is">iniciar sesión</a>
+                <a href="/vikia" class="btn vp">ver productos</a>
+                <a href="/signup" class="btn is">registrarse</a>
             </div>
             </div>
         <img src="imgs/wcbg.jpg">
@@ -30,35 +30,14 @@
         <span>Vikia es una tienda de música en línea, en el que podrás comprar toda la mercancía y álbumes de tus artistas favoritos (o los que tengamos permiso de vender).</span>
       </div>
       <div id="products">
-        <div class="prod">
-            <i class="fa-solid fa-radio"></i>
-            <span>¿Te sientes retro?
-                Un cassette es la 
-                opción apropiada 
-                para ti.</span>
-        </div>
-        <div class="prod">
-            <i class="fa-solid fa-record-vinyl"></i>
-            <span>¿De verdad tienes 
-                dinero para este?
-                No puedo creer
-                que tengas dónde
-                tocarlo.</span>
-        </div>
-        <div class="prod">
-            <i class="fa-solid fa-compact-disc"></i>
-            <span>Supongo que ya te
-                aburriste de usar
-                Spotify, no te preocupes,
-                nosotros también.</span>
-        </div>
+        
       </div>
       <div id="empresas"></div>
       <div id="final">
         <img src="imgs/cart.png" alt="">
         <div>
             <h3 class="con">estamos seguros que encontrarás lo que necesitas, y, sino, te entretendrás buscándolo en nuestra amplia colección.</h3>   
-            <a type="button" class="btn ec" href="../Pagina cliente/index.html">Empezar a comprar</a>
+            <a type="button" class="btn ec" href="/vikia">Empezar a comprar</a>
         </div>
       </div>
       <nav>
@@ -78,8 +57,9 @@
         </div>
     </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>  
-</body>
+      <script src="js/controlador.js"></script>
+  </body>
 </html>
